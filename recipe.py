@@ -97,14 +97,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-# get data
-# if a data file exists rename it to avoid wget naming conflict
-# if [ ! -f $r_data_file ]; then
-#   mv $r_data_file prev_${r_data_file}
-# fi
-
-# # fetch the json file
-# echo "fetching json file..."
-# wget -o $r_data_file $r_target_url
-# echo "data file retrieved"
